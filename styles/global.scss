@@ -113,6 +113,10 @@ body {
         font-weight: 700;
         width: 28rem;
         padding: 20px;
+
+        &--mod {
+          margin: 0;
+        }
       }
 
       &__description {

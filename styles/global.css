@@ -89,6 +89,9 @@ body {
   width: 28rem;
   padding: 20px;
 }
+.main__container__content__title--mod {
+  margin: 0;
+}
 .main__container__content__description {
   grid-area: description;
   padding: 20px;
