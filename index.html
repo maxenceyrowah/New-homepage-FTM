@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | News homepage</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <section class="header__nav__logo">
+        <img src="./assets/images/logo.svg" alt="logo of new homepage" />
+      </section>
+
+      <section class="header__nav__menu">
+        <ul class="header__nav__menu__list">
+          <li class="header__nav__menu__list__item">
+            <a href="#" class="header__nav__menu__list__item--mod">Home</a>
+          </li>
+
+          <li class="header__nav__menu__list__item">
+            <a href="#" class="header__nav__menu__list__item--mod">New</a>
+          </li>
+
+          <li class="header__nav__menu__list__item">
+            <a href="#" class="header__nav__menu__list__item--mod">Popular</a>
+          </li>
+
+          <li class="header__nav__menu__list__item">
+            <a href="#" class="header__nav__menu__list__item--mod">Trending</a>
+          </li>
+
+          <li class="header__nav__menu__list__item">
+            <a href="#" class="header__nav__menu__list__item--mod">Categories</a>
+          </li>
+        </ul>
+
+        <menu class="header__nav__menu__humburger">
+          <ul class="header__nav__menu__humburger__menu">
+            <li><a class="header__nav__menu__humburger__menu__item header__nav__menu__humburger__menu__item--mod" href="#">Home</a></li>
+            <li><a class="header__nav__menu__humburger__menu__item" href="#">New</a></li>
+            <li><a class="header__nav__menu__humburger__menu__item" href="#">Popular</a></li>
+            <li><a class="header__nav__menu__humburger__menu__item" href="#">Trending</a></li>
+            <li><a class="header__nav__menu__humburger__menu__item" href="#">Categories</a></li>
+          </ul>
+
+          <button class="header__nav__menu__humburger__button">
+            <img src="./assets/images/icon-menu.svg" alt="humburger open menu" height="30px" width="45px"
+              class="header__nav__menu__humburger__button__open" />
+            <img src="./assets/images/icon-menu-close.svg" alt="humburger close menu"
+              class="header__nav__menu__humburger__button__close" />
+          </button>
+        </menu>
+      </section>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="main__container">
+      <section class="main__container__content">
+        <section class="main__container__content__header"></section>
+
+        <section class="main__container__content__title">
+          The Bright Future of Web 3.0?
+        </section>
+
+        <section class="main__container__content__description">
+          <span class="main__container__content__description__title">
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+            of the
+            people.
+            But is it really fulfilling its promise?
+          </span>
+
+          <p class="main__container__content__description__button">
+            <button class="main__container__content__description__button--active">Read more</button>
+          </p>
+        </section>
+
+        <section class="main__container__content__article">
+          <span class="main__container__content__article__title">New</span>
+
+          <article class="main__container__content__article__card">
+            <strong class="main__container__content__article__card__title">Hydrogen VS Electric Cars</strong>
+            <p class="main__container__content__article__card__subtitle">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </article>
+
+          <span class="main__container__content__article__card--separate"></span>
+
+          <article class="main__container__content__article__card">
+            <strong class="main__container__content__article__card__title">The Downsides of AI Artistry</strong>
+            <p class="main__container__content__article__card__subtitle">
+              What are the possible adverse effects of on-demand AI image generation?
+            </p>
+          </article>
+
+          <span class="main__container__content__article__card--separate"></span>
+
+          <article class="main__container__content__article__card">
+            <strong class="main__container__content__article__card__title"> Is VC Funding Drying Up?</strong>
+            <p class="main__container__content__article__card__subtitle">
+              Private funding by VC firms is down 50% YOY. We take a look at what that means.
+            </p>
+          </article>
+        </section>
+
+        <section class="main__container__content__retro">
+          <div class="main__container__content__retro__image">
+            <img src="./assets/images/image-retro-pcs.jpg" class="main__container__content__retro__image--size" />
+          </div>
+          <div class="main__container__content__retro__description">
+            <span class="main__container__content__retro__description--number"> 01
+            </span>
+            <p class="main__container__content__retro__description--title"> Reviving Retro PCs
+            </p>
+            <p class="main__container__content__retro__description--subtitle"> What happens when old PCs
+              are given modern upgrades?
+            </p>
+          </div>
+        </section>
+
+        <section class="main__container__content__laptops">
+          <div class="main__container__content__laptops__image">
+            <img src="./assets/images/image-top-laptops.jpg" class="main__container__content__laptops__image--size" />
+          </div>
+          <div class="main__container__content__laptops__description">
+            <span class="main__container__content__laptops__description--number">02</span>
+            <p class="main__container__content__laptops__description--title">
+              Top 10 Laptops of 2022
+            </p>
+            <p class="main__container__content__laptops__description--subtitle">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </section>
+
+        <section class="main__container__content__gaming">
+          <div class="main__container__content__gaming__image">
+            <img src="./assets/images/image-gaming-growth.jpg" class="main__container__content__gaming__image--size" />
+          </div>
+          <div class="main__container__content__gaming__description">
+            <span class="main__container__content__gaming__description--number">03</span>
+            <p class="main__container__content__gaming__description--title">
+              The Growth of Gaming
+            </p>
+            <p class="main__container__content__gaming__description--subtitle">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </section>
+
+        <section class="main__container__content__footer">
+          <footer class="main__container__content__footer--mod">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Maxence Yrowah</a>.
+          </footer>
+        </section>
+      </section>
+    </section>
+  </main>
+  <script src="./index.js"></script>
+</body>
+
+</html>
